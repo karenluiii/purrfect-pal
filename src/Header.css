@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6B705C;
+    height: 60px;
+}
+
+.header__logo {
+    height: 40px;
+    object-fit: contain;
+    display: flex;
+    padding-right: 10px;
+}
+
+.header__logo > h2 {
+    color: #FFE8D6;
+}
+
+.header__icon {
+    padding: 20px;
+    color: #FFE8D6;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}

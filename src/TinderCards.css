@@ -1,0 +1,174 @@
+.card {
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    max-width: 85vw;
+    height: 40vh;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.3);
+}
+
+.petName {
+    position: absolute;
+    top: 0px;
+    color: black;
+    background-color: #DDBEA9;
+    padding: 8px;
+    border-radius: 15px 15px 0px 0px;
+    text-align: center;
+    width: 96%;
+    left: 0px;
+}
+
+.tinderCards__cardContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.swipe {
+    position: absolute;
+    background-color: #B7B7A4;
+    height: 550px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.buttons {
+    position: fixed;
+    bottom: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+}
+
+
+.swipeLeft__button {
+    color: white;
+    background-color: #DDBEA9;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.undoSwipe__button {
+    color: white;
+    background-color: #DDBEA9;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.swipeRight__button {
+    color: white;
+    background-color: #DDBEA9;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.textBelow__buttons{
+    position: fixed;
+    bottom: 5vh;
+    justify-content: center;
+    margin: 10px;
+    color: #6B705C;
+}
+
+.infoText{
+    position: fixed;
+    bottom: 5vh;
+    justify-content: center;
+    align-items: center;
+    width: 18vw;
+}
+
+.infoText__left {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.infoText__left > h3 {
+    margin: 10px;
+}
+
+.infoText__right {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.infoText__right > h3 {
+    margin: 10px;
+}
+
+.info__section {
+    position: absolute;
+    margin-left: 20px;
+    margin-right: 20px;
+    bottom: 40px;
+}
+
+.info__section > p {
+    margin-left: 10px;
+}
+
+.left__panel {
+    width: 20vw;
+    height: 100%;
+    background-color: #B7B7A4;
+    position: absolute;
+    left: auto;
+}
+
+.matches__text > h3 {
+    padding: 10px;
+    background-color: #DDBEA9;
+    color: #6B705C;
+    text-align: center;
+    left: 15%;
+}
+
+.thumbnail {
+    position: relative;
+    width: 20vw;
+    height: 10vh;
+    padding: 20px;
+    max-width: 85vw;
+    border-radius: 20px;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.thumbnailPhoto {
+    background-color: #A5A58D;
+    margin: 2px;
+    border-radius: 20px;
+}
+
+.thumbnailPhoto > p {
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.thumbnailPhoto > img {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 5px; 
+    margin: 8px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    background-color: #A5A58D;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.3); 
+}
+
+.profile__link {
+    background-color: #DDBEA9;
+    margin: 8px;
+    padding: 5px;
+    border-radius: 20px;
+}
